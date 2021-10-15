@@ -1,5 +1,5 @@
-import './styles/main.css';
+import './styles/home.css';
 
-import {renderMain} from './scripts/main.js';
+import {renderMain} from './scripts/home.js';
 
 renderMain();
