@@ -1,1 +1,5 @@
-console.log('yay you succeed');
+import './styles/main.css';
+
+import {renderMain} from './scripts/main.js';
+
+renderMain();
