@@ -1,7 +1,6 @@
 import ownerImgSrc from '../images/owner.jpeg';
 
-function renderMain(){
-    console.log('asd');
+function renderHome(){
     const contentContainer = document.querySelector('#content');
     const mainContainer = document.createElement('div');
     contentContainer.appendChild(mainContainer);
@@ -21,4 +20,4 @@ function renderMain(){
     contentContainer.appendChild(ownerImg);
 }
 
-export {renderMain}
+export {renderHome}
