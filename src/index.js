@@ -13,16 +13,25 @@ const homeAnchor = document.querySelector('#home');
 homeAnchor.addEventListener('click', ()=>{ 
     contentContainer.innerHTML = '';
     renderHome();
+    homeAnchor.classList.add('chosen-anchor');
+    menuAnchor.classList.remove('chosen-anchor');
+    contactAnchor.classList.remove('chosen-anchor');
 });
 
 const menuAnchor = document.querySelector('#menu');
 menuAnchor.addEventListener('click', () =>{
     contentContainer.innerHTML = '';
     renderMenu();
+    homeAnchor.classList.remove('chosen-anchor');
+    menuAnchor.classList.add('chosen-anchor');
+    contactAnchor.classList.remove('chosen-anchor');
 })
 
 const contactAnchor = document.querySelector('#contact');
 contactAnchor.addEventListener('click', ()=>{
     contentContainer.innerHTML = '';
     renderContact();
+    homeAnchor.classList.remove('chosen-anchor');
+    menuAnchor.classList.remove('chosen-anchor');
+    contactAnchor.classList.add('chosen-anchor');
 });
