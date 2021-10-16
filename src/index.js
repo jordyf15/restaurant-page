@@ -1,4 +1,7 @@
+import './styles/index.css';
 import './styles/home.css';
+import './styles/menu.css';
+import './styles/contact.css';
 
 import {renderHome} from './scripts/home.js';
 import {renderMenu} from './scripts/menu';
