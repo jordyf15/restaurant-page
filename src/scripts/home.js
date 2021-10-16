@@ -1,5 +1,3 @@
-import ownerImgSrc from '../images/owner.jpeg';
-
 function renderHome(){
     const contentContainer = document.querySelector('#content');
     const mainContainer = document.createElement('div');
@@ -13,11 +11,6 @@ function renderHome(){
     author.id = 'author';
     author.textContent = 'Mond';
     contentContainer.appendChild(author);
-
-    const ownerImg = document.createElement('img');
-    ownerImg.src = ownerImgSrc;
-    ownerImg.alt = 'mond the tavern owner';
-    contentContainer.appendChild(ownerImg);
 }
 
 export {renderHome}

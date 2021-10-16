@@ -5,7 +5,7 @@ function renderContact(){
 
     const test = document.createElement('p');
     test.textContent = 'this is contact';
-    contentContainer.appendChild(test);
+    contactSection.appendChild(test);
 
 }
 
