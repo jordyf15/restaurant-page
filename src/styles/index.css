@@ -49,6 +49,16 @@ header ul{
     transform: translateY(-10px);
 }
 
+#content{
+    background-image: url("../assets/images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer{
     background-color: #e6cbae;
     color: #3d0c07;

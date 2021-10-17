@@ -8,7 +8,6 @@ import {renderMenu} from './scripts/menu';
 import {renderContact} from './scripts/contact';
 
 const contentContainer = document.querySelector('#content');
-contentContainer.classList.add('home-background');
 renderHome();
 const homeAnchor = document.querySelector('#home');
 homeAnchor.classList.add('chosen-anchor');
