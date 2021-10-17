@@ -1,3 +1,18 @@
+class MenuItem{
+    image;
+    name;
+    gold;
+    silver;
+    copper;
+    constructor(image, name, gold, silver, copper){
+        this.image = image;
+        this.name = name;
+        this.gold = gold;
+        this.silver = silver;
+        this.copper = copper;
+    }
+}
+
 function renderMenu(){
     const contentContainer = document.querySelector('#content');
     const menuSection = document.createElement('section');
