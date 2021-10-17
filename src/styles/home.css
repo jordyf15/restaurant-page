@@ -5,6 +5,7 @@
     text-align: center;
     border: 4px solid #47261d;
     border-radius: 10px;
+    max-width: 550px;
 }
 
 #home-container p{
@@ -32,5 +33,56 @@
 .choice-button:hover{
     color: #3d0c07;
     font-weight: bolder;
+}
+
+#popup-background{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#popup-container{
+    background-color: #e6cbae;
+    color: #3d0c07;
+    width: 85%;
+    border-radius: 10px;
+    text-align: center;
+    border: 4px solid #47261d;
+    max-width: 700px;
+}
+
+#popup-container p{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 17px;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+#popup-container button{
+    background-color: #eec084;
+    color: #81521c;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    border: 2px solid #632200;
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+#popup-container button:hover{
+    color: #3d0c07;
+    font-weight: bolder;
+}
+
+@media only screen and (min-width: 800px) {
+    #home-container{
+        font-size: 18px;
+    }
 }
 
