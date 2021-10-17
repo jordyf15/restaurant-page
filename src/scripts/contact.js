@@ -12,7 +12,7 @@ function renderContact(){
     contactIcon.classList.add('fas', 'fa-envelope-open-text');
     contact.appendChild(contactIcon);
     const contactText = document.createElement('span');
-    contactText.textContent = ' The mailbox of archet is at this coordinate 25.0S, 48.9W';
+    contactText.textContent = ' 25.0S, 48.9W';
     contact.appendChild(contactText);
     contactSection.appendChild(contact);
 
@@ -28,6 +28,7 @@ function renderContact(){
 
     const mapImage = document.createElement('img');
     mapImage.src = contactMap;
+    mapImage.id = 'map-img';
     mapImage.alt = 'A map of bree marking archet';
     contactSection.appendChild(mapImage);
 }
